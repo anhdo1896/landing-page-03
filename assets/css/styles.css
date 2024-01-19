@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1ebfc1;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+.main-content {
+    width: 1440px;
+    max-width: calc(100% - 135px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    color: #0d1111;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.heading.lv1 {
+    font-size: 6.2rem;
+    line-height: 1.16;
+}
+
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
+.heading.lv3 {
+    font-size: 2.2rem;
+}
+
